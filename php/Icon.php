@@ -15,8 +15,13 @@ abstract class Icon
     /** @var string */
     public $strokeLinejoin = 'round';
 
-    public function __construct()
+    public function __construct(?array $options = null)
     {
+        if ($options) {
+            foreach ($options as $key => $value) {
+                $this->$key = $value;
+            }
+        }
     }
 
     abstract public static function getSvg(): string;
