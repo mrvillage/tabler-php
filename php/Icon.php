@@ -14,6 +14,10 @@ abstract class Icon
     public $strokeLinecap = 'round';
     /** @var string */
     public $strokeLinejoin = 'round';
+    /** @var string */
+    public $style = '';
+    /** @var string */
+    public $class = '';
 
     public function __construct(?array $options = null)
     {
@@ -37,10 +41,12 @@ abstract class Icon
         $fill = $this->fill;
         $strokeLinecap = $this->strokeLinecap;
         $strokeLinejoin = $this->strokeLinejoin;
+        $style = $this->style;
+        $class = $this->class;
         return <<<EOT
             <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-$name"
+            class="icon icon-tabler icon-tabler-$name $class"
             width="$size"
             height="$size"
             viewBox="0 0 24 24"
@@ -49,6 +55,7 @@ abstract class Icon
             fill="$fill"
             stroke-linecap="$strokeLinecap"
             stroke-linejoin="$strokeLinejoin"
+            style="$style"
         >
             $svg
         </svg>
