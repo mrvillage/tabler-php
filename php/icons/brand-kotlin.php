@@ -1,0 +1,14 @@
+<?php
+require_once('../Icon.php');
+
+class IconBrandKotlin extends Icon {
+    public static function getName(): string {
+        return 'brand-kotlin';
+    }
+
+    public static function getSvg(): string {
+        return <<<SVG
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>   <path d="M20 20h-16v-16h16" />   <path d="M4 20l16 -16" />   <path d="M4 12l8 -8" />   <path d="M12 12l8 8" />
+        SVG;
+    }
+}

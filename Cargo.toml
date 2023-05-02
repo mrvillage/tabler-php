@@ -1,0 +1,10 @@
+[package]
+name = "tabler-php"
+version = "0.1.0"
+edition = "2021"
+include = ["/templates", "/src", "Icon.php"]
+
+[dependencies]
+regex = "1"
+include_dir = "0.7"
+lazy_static = "1.4"
