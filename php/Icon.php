@@ -2,12 +2,18 @@
 
 abstract class Icon
 {
-    public float $size = 24;
-    public float $strokeWidth = 2;
-    public string $stroke = 'currentColor';
-    public string $fill = 'none';
-    public string $strokeLinecap = 'round';
-    public string $strokeLinejoin = 'round';
+    /** @var float */
+    public $size = 24;
+    /** @var float */
+    public $strokeWidth = 2;
+    /** @var string */
+    public $stroke = 'currentColor';
+    /** @var string */
+    public $fill = 'none';
+    /** @var string */
+    public $strokeLinecap = 'round';
+    /** @var string */
+    public $strokeLinejoin = 'round';
 
     public function __construct()
     {
