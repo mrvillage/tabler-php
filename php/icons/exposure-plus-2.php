@@ -1,5 +1,5 @@
 <?php
-require_once(__DIR__ . '../Icon.php');
+require_once(__DIR__ . '/../Icon.php');
 
 class IconExposurePlus2 extends Icon {
     public static function getName(): string {
