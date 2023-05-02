@@ -1,5 +1,5 @@
 <?php
-require_once('../Icon.php');
+require_once(__DIR__ . '../Icon.php');
 
 class IconArrowNarrowUp extends Icon {
     public static function getName(): string {
