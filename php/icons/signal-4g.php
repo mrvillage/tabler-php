@@ -1,4 +1,6 @@
 <?php
+namespace Tabler\Icons;
+
 require_once(__DIR__ . '/../Icon.php');
 
 class IconSignal4g extends Icon {

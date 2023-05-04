@@ -1,4 +1,6 @@
 <?php
+namespace Tabler\Icons;
+
 require_once(__DIR__ . '/../Icon.php');
 
 class IconAntennaBars1 extends Icon {

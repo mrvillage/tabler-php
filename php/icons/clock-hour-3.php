@@ -1,4 +1,6 @@
 <?php
+namespace Tabler\Icons;
+
 require_once(__DIR__ . '/../Icon.php');
 
 class IconClockHour3 extends Icon {

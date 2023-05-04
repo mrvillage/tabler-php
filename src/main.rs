@@ -53,6 +53,8 @@ fn main() {
             out_dir.join(format!("{}.php", name)),
             format!(
                 r#"<?php
+namespace Tabler\Icons;
+
 require_once(__DIR__ . '/../Icon.php');
 
 class Icon{class_name} extends Icon {{
