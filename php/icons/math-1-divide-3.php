@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMath1Divide3 extends Tabler\Icon {
+class IconMath1Divide3 extends \Tabler\Icon {
     public static function getName(): string {
         return 'math-1-divide-3';
     }

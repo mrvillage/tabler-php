@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDeviceNintendo extends Tabler\Icon {
+class IconDeviceNintendo extends \Tabler\Icon {
     public static function getName(): string {
         return 'device-nintendo';
     }

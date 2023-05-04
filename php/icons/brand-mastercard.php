@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandMastercard extends Tabler\Icon {
+class IconBrandMastercard extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-mastercard';
     }

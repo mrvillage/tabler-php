@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCpuOff extends Tabler\Icon {
+class IconCpuOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'cpu-off';
     }

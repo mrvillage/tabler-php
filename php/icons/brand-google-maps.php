@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandGoogleMaps extends Tabler\Icon {
+class IconBrandGoogleMaps extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-google-maps';
     }

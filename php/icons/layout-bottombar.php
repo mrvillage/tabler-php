@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLayoutBottombar extends Tabler\Icon {
+class IconLayoutBottombar extends \Tabler\Icon {
     public static function getName(): string {
         return 'layout-bottombar';
     }

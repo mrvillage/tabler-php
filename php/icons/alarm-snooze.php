@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconAlarmSnooze extends Tabler\Icon {
+class IconAlarmSnooze extends \Tabler\Icon {
     public static function getName(): string {
         return 'alarm-snooze';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconError404 extends Tabler\Icon {
+class IconError404 extends \Tabler\Icon {
     public static function getName(): string {
         return 'error-404';
     }

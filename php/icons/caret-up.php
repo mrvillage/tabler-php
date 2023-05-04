@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCaretUp extends Tabler\Icon {
+class IconCaretUp extends \Tabler\Icon {
     public static function getName(): string {
         return 'caret-up';
     }

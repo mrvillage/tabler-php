@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconTopologyStarRing extends Tabler\Icon {
+class IconTopologyStarRing extends \Tabler\Icon {
     public static function getName(): string {
         return 'topology-star-ring';
     }

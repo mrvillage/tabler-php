@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandTiktoFilled extends Tabler\Icon {
+class IconBrandTiktoFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-tikto-filled';
     }

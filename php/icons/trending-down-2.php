@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconTrendingDown2 extends Tabler\Icon {
+class IconTrendingDown2 extends \Tabler\Icon {
     public static function getName(): string {
         return 'trending-down-2';
     }

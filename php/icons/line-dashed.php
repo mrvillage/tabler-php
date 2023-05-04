@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLineDashed extends Tabler\Icon {
+class IconLineDashed extends \Tabler\Icon {
     public static function getName(): string {
         return 'line-dashed';
     }

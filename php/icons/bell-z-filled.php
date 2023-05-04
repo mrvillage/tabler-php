@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBellZFilled extends Tabler\Icon {
+class IconBellZFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'bell-z-filled';
     }

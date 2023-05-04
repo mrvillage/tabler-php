@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconNoDerivatives extends Tabler\Icon {
+class IconNoDerivatives extends \Tabler\Icon {
     public static function getName(): string {
         return 'no-derivatives';
     }

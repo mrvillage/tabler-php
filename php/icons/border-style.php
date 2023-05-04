@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBorderStyle extends Tabler\Icon {
+class IconBorderStyle extends \Tabler\Icon {
     public static function getName(): string {
         return 'border-style';
     }

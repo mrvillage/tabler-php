@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconPointerSearch extends Tabler\Icon {
+class IconPointerSearch extends \Tabler\Icon {
     public static function getName(): string {
         return 'pointer-search';
     }

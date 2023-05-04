@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconNeedleThread extends Tabler\Icon {
+class IconNeedleThread extends \Tabler\Icon {
     public static function getName(): string {
         return 'needle-thread';
     }

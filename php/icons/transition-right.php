@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconTransitionRight extends Tabler\Icon {
+class IconTransitionRight extends \Tabler\Icon {
     public static function getName(): string {
         return 'transition-right';
     }

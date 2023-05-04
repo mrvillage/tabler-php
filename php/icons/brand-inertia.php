@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandInertia extends Tabler\Icon {
+class IconBrandInertia extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-inertia';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconHistoryToggle extends Tabler\Icon {
+class IconHistoryToggle extends \Tabler\Icon {
     public static function getName(): string {
         return 'history-toggle';
     }

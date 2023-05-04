@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconPennant2Filled extends Tabler\Icon {
+class IconPennant2Filled extends \Tabler\Icon {
     public static function getName(): string {
         return 'pennant-2-filled';
     }

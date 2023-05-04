@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandGolang extends Tabler\Icon {
+class IconBrandGolang extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-golang';
     }

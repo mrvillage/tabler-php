@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconVideoPlus extends Tabler\Icon {
+class IconVideoPlus extends \Tabler\Icon {
     public static function getName(): string {
         return 'video-plus';
     }

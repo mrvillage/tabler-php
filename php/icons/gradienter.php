@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconGradienter extends Tabler\Icon {
+class IconGradienter extends \Tabler\Icon {
     public static function getName(): string {
         return 'gradienter';
     }

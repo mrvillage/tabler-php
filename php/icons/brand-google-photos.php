@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandGooglePhotos extends Tabler\Icon {
+class IconBrandGooglePhotos extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-google-photos';
     }

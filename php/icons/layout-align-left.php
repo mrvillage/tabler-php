@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLayoutAlignLeft extends Tabler\Icon {
+class IconLayoutAlignLeft extends \Tabler\Icon {
     public static function getName(): string {
         return 'layout-align-left';
     }

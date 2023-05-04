@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFloatNone extends Tabler\Icon {
+class IconFloatNone extends \Tabler\Icon {
     public static function getName(): string {
         return 'float-none';
     }

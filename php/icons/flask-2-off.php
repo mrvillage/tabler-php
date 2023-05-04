@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFlask2Off extends Tabler\Icon {
+class IconFlask2Off extends \Tabler\Icon {
     public static function getName(): string {
         return 'flask-2-off';
     }

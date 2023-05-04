@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCameraPin extends Tabler\Icon {
+class IconCameraPin extends \Tabler\Icon {
     public static function getName(): string {
         return 'camera-pin';
     }

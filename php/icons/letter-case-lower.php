@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLetterCaseLower extends Tabler\Icon {
+class IconLetterCaseLower extends \Tabler\Icon {
     public static function getName(): string {
         return 'letter-case-lower';
     }

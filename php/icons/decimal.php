@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDecimal extends Tabler\Icon {
+class IconDecimal extends \Tabler\Icon {
     public static function getName(): string {
         return 'decimal';
     }

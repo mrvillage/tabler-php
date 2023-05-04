@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconChartTreemap extends Tabler\Icon {
+class IconChartTreemap extends \Tabler\Icon {
     public static function getName(): string {
         return 'chart-treemap';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBandageFilled extends Tabler\Icon {
+class IconBandageFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'bandage-filled';
     }

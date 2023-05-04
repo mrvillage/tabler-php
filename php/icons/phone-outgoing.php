@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconPhoneOutgoing extends Tabler\Icon {
+class IconPhoneOutgoing extends \Tabler\Icon {
     public static function getName(): string {
         return 'phone-outgoing';
     }

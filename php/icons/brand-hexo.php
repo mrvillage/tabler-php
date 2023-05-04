@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandHexo extends Tabler\Icon {
+class IconBrandHexo extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-hexo';
     }

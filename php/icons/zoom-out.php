@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconZoomOut extends Tabler\Icon {
+class IconZoomOut extends \Tabler\Icon {
     public static function getName(): string {
         return 'zoom-out';
     }

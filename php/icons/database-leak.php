@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDatabaseLeak extends Tabler\Icon {
+class IconDatabaseLeak extends \Tabler\Icon {
     public static function getName(): string {
         return 'database-leak';
     }

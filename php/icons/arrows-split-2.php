@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconArrowsSplit2 extends Tabler\Icon {
+class IconArrowsSplit2 extends \Tabler\Icon {
     public static function getName(): string {
         return 'arrows-split-2';
     }

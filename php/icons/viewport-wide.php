@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconViewportWide extends Tabler\Icon {
+class IconViewportWide extends \Tabler\Icon {
     public static function getName(): string {
         return 'viewport-wide';
     }

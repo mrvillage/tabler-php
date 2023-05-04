@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCloudPause extends Tabler\Icon {
+class IconCloudPause extends \Tabler\Icon {
     public static function getName(): string {
         return 'cloud-pause';
     }

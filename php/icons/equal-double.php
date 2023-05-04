@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconEqualDouble extends Tabler\Icon {
+class IconEqualDouble extends \Tabler\Icon {
     public static function getName(): string {
         return 'equal-double';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconWorldCheck extends Tabler\Icon {
+class IconWorldCheck extends \Tabler\Icon {
     public static function getName(): string {
         return 'world-check';
     }

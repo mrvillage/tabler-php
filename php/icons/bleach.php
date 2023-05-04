@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBleach extends Tabler\Icon {
+class IconBleach extends \Tabler\Icon {
     public static function getName(): string {
         return 'bleach';
     }

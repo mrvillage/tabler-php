@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFileDislike extends Tabler\Icon {
+class IconFileDislike extends \Tabler\Icon {
     public static function getName(): string {
         return 'file-dislike';
     }

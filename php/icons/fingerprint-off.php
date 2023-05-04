@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFingerprintOff extends Tabler\Icon {
+class IconFingerprintOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'fingerprint-off';
     }

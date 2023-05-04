@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandBitbucket extends Tabler\Icon {
+class IconBrandBitbucket extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-bitbucket';
     }

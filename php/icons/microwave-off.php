@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMicrowaveOff extends Tabler\Icon {
+class IconMicrowaveOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'microwave-off';
     }

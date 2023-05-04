@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCursorText extends Tabler\Icon {
+class IconCursorText extends \Tabler\Icon {
     public static function getName(): string {
         return 'cursor-text';
     }

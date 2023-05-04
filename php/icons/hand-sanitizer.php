@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconHandSanitizer extends Tabler\Icon {
+class IconHandSanitizer extends \Tabler\Icon {
     public static function getName(): string {
         return 'hand-sanitizer';
     }

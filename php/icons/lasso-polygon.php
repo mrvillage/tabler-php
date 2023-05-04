@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLassoPolygon extends Tabler\Icon {
+class IconLassoPolygon extends \Tabler\Icon {
     public static function getName(): string {
         return 'lasso-polygon';
     }

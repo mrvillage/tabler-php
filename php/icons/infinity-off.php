@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconInfinityOff extends Tabler\Icon {
+class IconInfinityOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'infinity-off';
     }

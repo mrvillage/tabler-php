@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconArrowRotaryFirstLeft extends Tabler\Icon {
+class IconArrowRotaryFirstLeft extends \Tabler\Icon {
     public static function getName(): string {
         return 'arrow-rotary-first-left';
     }

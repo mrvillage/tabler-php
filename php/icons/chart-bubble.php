@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconChartBubble extends Tabler\Icon {
+class IconChartBubble extends \Tabler\Icon {
     public static function getName(): string {
         return 'chart-bubble';
     }

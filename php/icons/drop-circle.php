@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDropCircle extends Tabler\Icon {
+class IconDropCircle extends \Tabler\Icon {
     public static function getName(): string {
         return 'drop-circle';
     }

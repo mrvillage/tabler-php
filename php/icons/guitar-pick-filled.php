@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconGuitarPickFilled extends Tabler\Icon {
+class IconGuitarPickFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'guitar-pick-filled';
     }

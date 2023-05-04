@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDropletCancel extends Tabler\Icon {
+class IconDropletCancel extends \Tabler\Icon {
     public static function getName(): string {
         return 'droplet-cancel';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconColorPickerOff extends Tabler\Icon {
+class IconColorPickerOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'color-picker-off';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCubeUnfolded extends Tabler\Icon {
+class IconCubeUnfolded extends \Tabler\Icon {
     public static function getName(): string {
         return 'cube-unfolded';
     }

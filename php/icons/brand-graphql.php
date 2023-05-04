@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandGraphql extends Tabler\Icon {
+class IconBrandGraphql extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-graphql';
     }

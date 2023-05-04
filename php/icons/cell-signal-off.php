@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCellSignalOff extends Tabler\Icon {
+class IconCellSignalOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'cell-signal-off';
     }

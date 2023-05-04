@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCrystalBall extends Tabler\Icon {
+class IconCrystalBall extends \Tabler\Icon {
     public static function getName(): string {
         return 'crystal-ball';
     }

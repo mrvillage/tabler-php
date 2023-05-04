@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLayersDifference extends Tabler\Icon {
+class IconLayersDifference extends \Tabler\Icon {
     public static function getName(): string {
         return 'layers-difference';
     }

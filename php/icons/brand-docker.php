@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandDocker extends Tabler\Icon {
+class IconBrandDocker extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-docker';
     }

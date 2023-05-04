@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconWindowMaximize extends Tabler\Icon {
+class IconWindowMaximize extends \Tabler\Icon {
     public static function getName(): string {
         return 'window-maximize';
     }

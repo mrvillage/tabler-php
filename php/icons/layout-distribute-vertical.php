@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLayoutDistributeVertical extends Tabler\Icon {
+class IconLayoutDistributeVertical extends \Tabler\Icon {
     public static function getName(): string {
         return 'layout-distribute-vertical';
     }

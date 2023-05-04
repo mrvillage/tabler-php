@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconWorldLatitude extends Tabler\Icon {
+class IconWorldLatitude extends \Tabler\Icon {
     public static function getName(): string {
         return 'world-latitude';
     }

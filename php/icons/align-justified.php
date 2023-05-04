@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconAlignJustified extends Tabler\Icon {
+class IconAlignJustified extends \Tabler\Icon {
     public static function getName(): string {
         return 'align-justified';
     }

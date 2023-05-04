@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconQrcodeOff extends Tabler\Icon {
+class IconQrcodeOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'qrcode-off';
     }

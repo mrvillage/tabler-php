@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLampOff extends Tabler\Icon {
+class IconLampOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'lamp-off';
     }

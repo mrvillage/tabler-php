@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDotsCircleHorizontal extends Tabler\Icon {
+class IconDotsCircleHorizontal extends \Tabler\Icon {
     public static function getName(): string {
         return 'dots-circle-horizontal';
     }

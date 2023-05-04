@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconPyramidOff extends Tabler\Icon {
+class IconPyramidOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'pyramid-off';
     }

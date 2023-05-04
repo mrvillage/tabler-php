@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconEPassport extends Tabler\Icon {
+class IconEPassport extends \Tabler\Icon {
     public static function getName(): string {
         return 'e-passport';
     }

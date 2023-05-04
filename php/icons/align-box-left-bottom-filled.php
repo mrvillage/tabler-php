@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconAlignBoxLeftBottomFilled extends Tabler\Icon {
+class IconAlignBoxLeftBottomFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'align-box-left-bottom-filled';
     }

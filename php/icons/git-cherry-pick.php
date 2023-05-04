@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconGitCherryPick extends Tabler\Icon {
+class IconGitCherryPick extends \Tabler\Icon {
     public static function getName(): string {
         return 'git-cherry-pick';
     }

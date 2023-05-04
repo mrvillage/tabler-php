@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconRegex extends Tabler\Icon {
+class IconRegex extends \Tabler\Icon {
     public static function getName(): string {
         return 'regex';
     }

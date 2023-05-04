@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSeparator extends Tabler\Icon {
+class IconSeparator extends \Tabler\Icon {
     public static function getName(): string {
         return 'separator';
     }

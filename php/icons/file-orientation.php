@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFileOrientation extends Tabler\Icon {
+class IconFileOrientation extends \Tabler\Icon {
     public static function getName(): string {
         return 'file-orientation';
     }

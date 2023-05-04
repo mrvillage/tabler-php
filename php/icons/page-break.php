@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconPageBreak extends Tabler\Icon {
+class IconPageBreak extends \Tabler\Icon {
     public static function getName(): string {
         return 'page-break';
     }

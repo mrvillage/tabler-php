@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconRepeatOnce extends Tabler\Icon {
+class IconRepeatOnce extends \Tabler\Icon {
     public static function getName(): string {
         return 'repeat-once';
     }

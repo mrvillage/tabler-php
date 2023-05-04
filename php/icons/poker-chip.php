@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconPokerChip extends Tabler\Icon {
+class IconPokerChip extends \Tabler\Icon {
     public static function getName(): string {
         return 'poker-chip';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCreativeCommonsNd extends Tabler\Icon {
+class IconCreativeCommonsNd extends \Tabler\Icon {
     public static function getName(): string {
         return 'creative-commons-nd';
     }

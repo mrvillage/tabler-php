@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFaceIdError extends Tabler\Icon {
+class IconFaceIdError extends \Tabler\Icon {
     public static function getName(): string {
         return 'face-id-error';
     }

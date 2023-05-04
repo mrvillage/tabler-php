@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconClockStop extends Tabler\Icon {
+class IconClockStop extends \Tabler\Icon {
     public static function getName(): string {
         return 'clock-stop';
     }

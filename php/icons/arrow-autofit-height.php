@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconArrowAutofitHeight extends Tabler\Icon {
+class IconArrowAutofitHeight extends \Tabler\Icon {
     public static function getName(): string {
         return 'arrow-autofit-height';
     }

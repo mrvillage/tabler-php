@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDotsDiagonal extends Tabler\Icon {
+class IconDotsDiagonal extends \Tabler\Icon {
     public static function getName(): string {
         return 'dots-diagonal';
     }

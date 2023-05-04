@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandRadixUi extends Tabler\Icon {
+class IconBrandRadixUi extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-radix-ui';
     }

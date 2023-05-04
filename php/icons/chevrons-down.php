@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconChevronsDown extends Tabler\Icon {
+class IconChevronsDown extends \Tabler\Icon {
     public static function getName(): string {
         return 'chevrons-down';
     }

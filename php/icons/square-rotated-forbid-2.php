@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSquareRotatedForbid2 extends Tabler\Icon {
+class IconSquareRotatedForbid2 extends \Tabler\Icon {
     public static function getName(): string {
         return 'square-rotated-forbid-2';
     }

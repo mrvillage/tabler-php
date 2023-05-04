@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBluetoothOff extends Tabler\Icon {
+class IconBluetoothOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'bluetooth-off';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconVariableMinus extends Tabler\Icon {
+class IconVariableMinus extends \Tabler\Icon {
     public static function getName(): string {
         return 'variable-minus';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCircleLetterB extends Tabler\Icon {
+class IconCircleLetterB extends \Tabler\Icon {
     public static function getName(): string {
         return 'circle-letter-b';
     }

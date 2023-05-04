@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandMixpanel extends Tabler\Icon {
+class IconBrandMixpanel extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-mixpanel';
     }

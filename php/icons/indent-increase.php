@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconIndentIncrease extends Tabler\Icon {
+class IconIndentIncrease extends \Tabler\Icon {
     public static function getName(): string {
         return 'indent-increase';
     }

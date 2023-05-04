@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconHexagonsOff extends Tabler\Icon {
+class IconHexagonsOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'hexagons-off';
     }

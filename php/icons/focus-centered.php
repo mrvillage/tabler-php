@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFocusCentered extends Tabler\Icon {
+class IconFocusCentered extends \Tabler\Icon {
     public static function getName(): string {
         return 'focus-centered';
     }

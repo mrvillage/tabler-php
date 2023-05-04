@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconWashMachine extends Tabler\Icon {
+class IconWashMachine extends \Tabler\Icon {
     public static function getName(): string {
         return 'wash-machine';
     }

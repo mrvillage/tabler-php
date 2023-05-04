@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconKeyframeAlignHorizontal extends Tabler\Icon {
+class IconKeyframeAlignHorizontal extends \Tabler\Icon {
     public static function getName(): string {
         return 'keyframe-align-horizontal';
     }

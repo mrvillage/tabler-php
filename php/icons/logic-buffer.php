@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLogicBuffer extends Tabler\Icon {
+class IconLogicBuffer extends \Tabler\Icon {
     public static function getName(): string {
         return 'logic-buffer';
     }

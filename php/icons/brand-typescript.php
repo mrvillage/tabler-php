@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandTypescript extends Tabler\Icon {
+class IconBrandTypescript extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-typescript';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandPaypalFilled extends Tabler\Icon {
+class IconBrandPaypalFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-paypal-filled';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandVsco extends Tabler\Icon {
+class IconBrandVsco extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-vsco';
     }

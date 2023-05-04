@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandHipchat extends Tabler\Icon {
+class IconBrandHipchat extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-hipchat';
     }

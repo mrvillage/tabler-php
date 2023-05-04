@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconParenthesesOff extends Tabler\Icon {
+class IconParenthesesOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'parentheses-off';
     }

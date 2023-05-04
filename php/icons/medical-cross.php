@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMedicalCross extends Tabler\Icon {
+class IconMedicalCross extends \Tabler\Icon {
     public static function getName(): string {
         return 'medical-cross';
     }

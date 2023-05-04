@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCloudFilled extends Tabler\Icon {
+class IconCloudFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'cloud-filled';
     }

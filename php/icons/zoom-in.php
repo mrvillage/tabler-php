@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconZoomIn extends Tabler\Icon {
+class IconZoomIn extends \Tabler\Icon {
     public static function getName(): string {
         return 'zoom-in';
     }

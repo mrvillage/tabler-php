@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMoodLookRight extends Tabler\Icon {
+class IconMoodLookRight extends \Tabler\Icon {
     public static function getName(): string {
         return 'mood-look-right';
     }

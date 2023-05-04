@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFlipFlops extends Tabler\Icon {
+class IconFlipFlops extends \Tabler\Icon {
     public static function getName(): string {
         return 'flip-flops';
     }

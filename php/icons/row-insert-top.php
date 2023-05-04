@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconRowInsertTop extends Tabler\Icon {
+class IconRowInsertTop extends \Tabler\Icon {
     public static function getName(): string {
         return 'row-insert-top';
     }

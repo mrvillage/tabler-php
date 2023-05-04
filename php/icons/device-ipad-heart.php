@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDeviceIpadHeart extends Tabler\Icon {
+class IconDeviceIpadHeart extends \Tabler\Icon {
     public static function getName(): string {
         return 'device-ipad-heart';
     }

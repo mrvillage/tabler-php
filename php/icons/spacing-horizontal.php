@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSpacingHorizontal extends Tabler\Icon {
+class IconSpacingHorizontal extends \Tabler\Icon {
     public static function getName(): string {
         return 'spacing-horizontal';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCircleArrowUpFilled extends Tabler\Icon {
+class IconCircleArrowUpFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'circle-arrow-up-filled';
     }

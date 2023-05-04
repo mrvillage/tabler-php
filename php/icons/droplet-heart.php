@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDropletHeart extends Tabler\Icon {
+class IconDropletHeart extends \Tabler\Icon {
     public static function getName(): string {
         return 'droplet-heart';
     }

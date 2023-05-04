@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFileDigit extends Tabler\Icon {
+class IconFileDigit extends \Tabler\Icon {
     public static function getName(): string {
         return 'file-digit';
     }

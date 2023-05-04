@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconColumnInsertRight extends Tabler\Icon {
+class IconColumnInsertRight extends \Tabler\Icon {
     public static function getName(): string {
         return 'column-insert-right';
     }

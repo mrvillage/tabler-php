@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBackspaceFilled extends Tabler\Icon {
+class IconBackspaceFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'backspace-filled';
     }

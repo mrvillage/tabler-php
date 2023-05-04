@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMessageChatbot extends Tabler\Icon {
+class IconMessageChatbot extends \Tabler\Icon {
     public static function getName(): string {
         return 'message-chatbot';
     }

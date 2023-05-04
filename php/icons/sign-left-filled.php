@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSignLeftFilled extends Tabler\Icon {
+class IconSignLeftFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'sign-left-filled';
     }

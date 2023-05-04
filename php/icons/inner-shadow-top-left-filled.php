@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconInnerShadowTopLeftFilled extends Tabler\Icon {
+class IconInnerShadowTopLeftFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'inner-shadow-top-left-filled';
     }

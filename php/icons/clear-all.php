@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconClearAll extends Tabler\Icon {
+class IconClearAll extends \Tabler\Icon {
     public static function getName(): string {
         return 'clear-all';
     }

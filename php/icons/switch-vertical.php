@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSwitchVertical extends Tabler\Icon {
+class IconSwitchVertical extends \Tabler\Icon {
     public static function getName(): string {
         return 'switch-vertical';
     }

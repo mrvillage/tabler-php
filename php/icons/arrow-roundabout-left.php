@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconArrowRoundaboutLeft extends Tabler\Icon {
+class IconArrowRoundaboutLeft extends \Tabler\Icon {
     public static function getName(): string {
         return 'arrow-roundabout-left';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandVimeo extends Tabler\Icon {
+class IconBrandVimeo extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-vimeo';
     }

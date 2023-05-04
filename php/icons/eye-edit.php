@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconEyeEdit extends Tabler\Icon {
+class IconEyeEdit extends \Tabler\Icon {
     public static function getName(): string {
         return 'eye-edit';
     }

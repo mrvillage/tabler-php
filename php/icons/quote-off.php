@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconQuoteOff extends Tabler\Icon {
+class IconQuoteOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'quote-off';
     }

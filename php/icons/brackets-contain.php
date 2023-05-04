@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBracketsContain extends Tabler\Icon {
+class IconBracketsContain extends \Tabler\Icon {
     public static function getName(): string {
         return 'brackets-contain';
     }

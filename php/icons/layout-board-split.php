@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLayoutBoardSplit extends Tabler\Icon {
+class IconLayoutBoardSplit extends \Tabler\Icon {
     public static function getName(): string {
         return 'layout-board-split';
     }

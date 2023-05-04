@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLayoutNavbarCollapse extends Tabler\Icon {
+class IconLayoutNavbarCollapse extends \Tabler\Icon {
     public static function getName(): string {
         return 'layout-navbar-collapse';
     }

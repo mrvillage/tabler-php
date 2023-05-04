@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFileZip extends Tabler\Icon {
+class IconFileZip extends \Tabler\Icon {
     public static function getName(): string {
         return 'file-zip';
     }

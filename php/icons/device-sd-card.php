@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDeviceSdCard extends Tabler\Icon {
+class IconDeviceSdCard extends \Tabler\Icon {
     public static function getName(): string {
         return 'device-sd-card';
     }

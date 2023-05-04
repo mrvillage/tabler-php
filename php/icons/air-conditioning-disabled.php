@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconAirConditioningDisabled extends Tabler\Icon {
+class IconAirConditioningDisabled extends \Tabler\Icon {
     public static function getName(): string {
         return 'air-conditioning-disabled';
     }

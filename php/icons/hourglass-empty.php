@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconHourglassEmpty extends Tabler\Icon {
+class IconHourglassEmpty extends \Tabler\Icon {
     public static function getName(): string {
         return 'hourglass-empty';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconRotateRectangle extends Tabler\Icon {
+class IconRotateRectangle extends \Tabler\Icon {
     public static function getName(): string {
         return 'rotate-rectangle';
     }

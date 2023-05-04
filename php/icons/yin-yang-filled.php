@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconYinYangFilled extends Tabler\Icon {
+class IconYinYangFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'yin-yang-filled';
     }

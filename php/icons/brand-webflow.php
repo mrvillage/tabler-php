@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandWebflow extends Tabler\Icon {
+class IconBrandWebflow extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-webflow';
     }

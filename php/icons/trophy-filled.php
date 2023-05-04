@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconTrophyFilled extends Tabler\Icon {
+class IconTrophyFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'trophy-filled';
     }

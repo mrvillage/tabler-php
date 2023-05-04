@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconAlignBoxCenterMiddle extends Tabler\Icon {
+class IconAlignBoxCenterMiddle extends \Tabler\Icon {
     public static function getName(): string {
         return 'align-box-center-middle';
     }

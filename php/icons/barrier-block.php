@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBarrierBlock extends Tabler\Icon {
+class IconBarrierBlock extends \Tabler\Icon {
     public static function getName(): string {
         return 'barrier-block';
     }

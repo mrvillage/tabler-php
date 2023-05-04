@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLogicNot extends Tabler\Icon {
+class IconLogicNot extends \Tabler\Icon {
     public static function getName(): string {
         return 'logic-not';
     }

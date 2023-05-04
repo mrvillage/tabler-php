@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSteeringWheelOff extends Tabler\Icon {
+class IconSteeringWheelOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'steering-wheel-off';
     }

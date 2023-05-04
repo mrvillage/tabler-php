@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMathYPlusY extends Tabler\Icon {
+class IconMathYPlusY extends \Tabler\Icon {
     public static function getName(): string {
         return 'math-y-plus-y';
     }

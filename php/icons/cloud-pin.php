@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCloudPin extends Tabler\Icon {
+class IconCloudPin extends \Tabler\Icon {
     public static function getName(): string {
         return 'cloud-pin';
     }

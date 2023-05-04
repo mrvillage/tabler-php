@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDeviceImacPlus extends Tabler\Icon {
+class IconDeviceImacPlus extends \Tabler\Icon {
     public static function getName(): string {
         return 'device-imac-plus';
     }

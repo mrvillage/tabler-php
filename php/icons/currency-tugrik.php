@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCurrencyTugrik extends Tabler\Icon {
+class IconCurrencyTugrik extends \Tabler\Icon {
     public static function getName(): string {
         return 'currency-tugrik';
     }

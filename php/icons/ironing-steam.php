@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconIroningSteam extends Tabler\Icon {
+class IconIroningSteam extends \Tabler\Icon {
     public static function getName(): string {
         return 'ironing-steam';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconArrowsDoubleNwSe extends Tabler\Icon {
+class IconArrowsDoubleNwSe extends \Tabler\Icon {
     public static function getName(): string {
         return 'arrows-double-nw-se';
     }

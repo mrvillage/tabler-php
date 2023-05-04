@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandTerraform extends Tabler\Icon {
+class IconBrandTerraform extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-terraform';
     }

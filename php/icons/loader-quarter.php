@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLoaderQuarter extends Tabler\Icon {
+class IconLoaderQuarter extends \Tabler\Icon {
     public static function getName(): string {
         return 'loader-quarter';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMultiplier05x extends Tabler\Icon {
+class IconMultiplier05x extends \Tabler\Icon {
     public static function getName(): string {
         return 'multiplier-0-5x';
     }

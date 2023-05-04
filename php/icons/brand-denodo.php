@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandDenodo extends Tabler\Icon {
+class IconBrandDenodo extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-denodo';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandCypress extends Tabler\Icon {
+class IconBrandCypress extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-cypress';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconUmbrellaFilled extends Tabler\Icon {
+class IconUmbrellaFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'umbrella-filled';
     }

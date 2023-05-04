@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconAdjustmentsFilled extends Tabler\Icon {
+class IconAdjustmentsFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'adjustments-filled';
     }

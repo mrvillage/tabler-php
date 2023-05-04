@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconScreenShareOff extends Tabler\Icon {
+class IconScreenShareOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'screen-share-off';
     }

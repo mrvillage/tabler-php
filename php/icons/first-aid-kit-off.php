@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFirstAidKitOff extends Tabler\Icon {
+class IconFirstAidKitOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'first-aid-kit-off';
     }

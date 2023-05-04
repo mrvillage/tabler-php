@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMenuOrder extends Tabler\Icon {
+class IconMenuOrder extends \Tabler\Icon {
     public static function getName(): string {
         return 'menu-order';
     }

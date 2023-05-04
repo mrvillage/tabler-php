@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconTopologyFullHierarchy extends Tabler\Icon {
+class IconTopologyFullHierarchy extends \Tabler\Icon {
     public static function getName(): string {
         return 'topology-full-hierarchy';
     }

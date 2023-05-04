@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBoxPadding extends Tabler\Icon {
+class IconBoxPadding extends \Tabler\Icon {
     public static function getName(): string {
         return 'box-padding';
     }

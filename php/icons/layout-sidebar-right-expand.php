@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLayoutSidebarRightExpand extends Tabler\Icon {
+class IconLayoutSidebarRightExpand extends \Tabler\Icon {
     public static function getName(): string {
         return 'layout-sidebar-right-expand';
     }

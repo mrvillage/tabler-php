@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconClipboardPlus extends Tabler\Icon {
+class IconClipboardPlus extends \Tabler\Icon {
     public static function getName(): string {
         return 'clipboard-plus';
     }

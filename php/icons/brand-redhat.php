@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandRedhat extends Tabler\Icon {
+class IconBrandRedhat extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-redhat';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDragDrop extends Tabler\Icon {
+class IconDragDrop extends \Tabler\Icon {
     public static function getName(): string {
         return 'drag-drop';
     }

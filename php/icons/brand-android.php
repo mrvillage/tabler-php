@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandAndroid extends Tabler\Icon {
+class IconBrandAndroid extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-android';
     }

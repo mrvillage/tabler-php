@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconAugmentedReality2 extends Tabler\Icon {
+class IconAugmentedReality2 extends \Tabler\Icon {
     public static function getName(): string {
         return 'augmented-reality-2';
     }

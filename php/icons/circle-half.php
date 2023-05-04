@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCircleHalf extends Tabler\Icon {
+class IconCircleHalf extends \Tabler\Icon {
     public static function getName(): string {
         return 'circle-half';
     }

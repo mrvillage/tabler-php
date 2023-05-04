@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrightnessOff extends Tabler\Icon {
+class IconBrightnessOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'brightness-off';
     }

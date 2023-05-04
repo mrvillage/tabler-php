@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconArrowRampLeft3 extends Tabler\Icon {
+class IconArrowRampLeft3 extends \Tabler\Icon {
     public static function getName(): string {
         return 'arrow-ramp-left-3';
     }

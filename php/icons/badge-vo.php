@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBadgeVo extends Tabler\Icon {
+class IconBadgeVo extends \Tabler\Icon {
     public static function getName(): string {
         return 'badge-vo';
     }

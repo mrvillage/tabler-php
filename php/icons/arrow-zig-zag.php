@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconArrowZigZag extends Tabler\Icon {
+class IconArrowZigZag extends \Tabler\Icon {
     public static function getName(): string {
         return 'arrow-zig-zag';
     }

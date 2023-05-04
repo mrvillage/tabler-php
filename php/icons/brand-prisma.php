@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandPrisma extends Tabler\Icon {
+class IconBrandPrisma extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-prisma';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconShieldCheckeredFilled extends Tabler\Icon {
+class IconShieldCheckeredFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'shield-checkered-filled';
     }

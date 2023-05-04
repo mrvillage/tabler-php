@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconChartDonutFilled extends Tabler\Icon {
+class IconChartDonutFilled extends \Tabler\Icon {
     public static function getName(): string {
         return 'chart-donut-filled';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandPython extends Tabler\Icon {
+class IconBrandPython extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-python';
     }

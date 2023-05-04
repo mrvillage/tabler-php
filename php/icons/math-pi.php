@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMathPi extends Tabler\Icon {
+class IconMathPi extends \Tabler\Icon {
     public static function getName(): string {
         return 'math-pi';
     }

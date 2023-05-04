@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconNfcOff extends Tabler\Icon {
+class IconNfcOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'nfc-off';
     }

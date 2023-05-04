@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCornerUpLeft extends Tabler\Icon {
+class IconCornerUpLeft extends \Tabler\Icon {
     public static function getName(): string {
         return 'corner-up-left';
     }

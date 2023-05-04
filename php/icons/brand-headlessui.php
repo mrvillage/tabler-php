@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandHeadlessui extends Tabler\Icon {
+class IconBrandHeadlessui extends \Tabler\Icon {
     public static function getName(): string {
         return 'brand-headlessui';
     }

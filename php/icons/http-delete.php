@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconHttpDelete extends Tabler\Icon {
+class IconHttpDelete extends \Tabler\Icon {
     public static function getName(): string {
         return 'http-delete';
     }

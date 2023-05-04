@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconArrowsMinimize extends Tabler\Icon {
+class IconArrowsMinimize extends \Tabler\Icon {
     public static function getName(): string {
         return 'arrows-minimize';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCameraRotate extends Tabler\Icon {
+class IconCameraRotate extends \Tabler\Icon {
     public static function getName(): string {
         return 'camera-rotate';
     }

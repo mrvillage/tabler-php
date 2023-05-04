@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBoxSeam extends Tabler\Icon {
+class IconBoxSeam extends \Tabler\Icon {
     public static function getName(): string {
         return 'box-seam';
     }

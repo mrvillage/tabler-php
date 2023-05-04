@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBoldOff extends Tabler\Icon {
+class IconBoldOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'bold-off';
     }

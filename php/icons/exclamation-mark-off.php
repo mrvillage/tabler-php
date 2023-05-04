@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconExclamationMarkOff extends Tabler\Icon {
+class IconExclamationMarkOff extends \Tabler\Icon {
     public static function getName(): string {
         return 'exclamation-mark-off';
     }
