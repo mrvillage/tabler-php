@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDeviceIpadHorizontalPause extends Icon {
+class IconDeviceIpadHorizontalPause extends Tabler\Icon {
     public static function getName(): string {
         return 'device-ipad-horizontal-pause';
     }

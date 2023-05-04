@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconScaleOutline extends Icon {
+class IconScaleOutline extends Tabler\Icon {
     public static function getName(): string {
         return 'scale-outline';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandSymfony extends Icon {
+class IconBrandSymfony extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-symfony';
     }

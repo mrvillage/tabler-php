@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFlipHorizontal extends Icon {
+class IconFlipHorizontal extends Tabler\Icon {
     public static function getName(): string {
         return 'flip-horizontal';
     }

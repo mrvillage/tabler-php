@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconShiJumping extends Icon {
+class IconShiJumping extends Tabler\Icon {
     public static function getName(): string {
         return 'shi-jumping';
     }

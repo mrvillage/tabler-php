@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconKeyframe extends Icon {
+class IconKeyframe extends Tabler\Icon {
     public static function getName(): string {
         return 'keyframe';
     }

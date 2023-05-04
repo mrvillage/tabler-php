@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconVectorTriangleOff extends Icon {
+class IconVectorTriangleOff extends Tabler\Icon {
     public static function getName(): string {
         return 'vector-triangle-off';
     }

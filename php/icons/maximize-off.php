@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMaximizeOff extends Icon {
+class IconMaximizeOff extends Tabler\Icon {
     public static function getName(): string {
         return 'maximize-off';
     }

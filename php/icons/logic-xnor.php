@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLogicXnor extends Icon {
+class IconLogicXnor extends Tabler\Icon {
     public static function getName(): string {
         return 'logic-xnor';
     }

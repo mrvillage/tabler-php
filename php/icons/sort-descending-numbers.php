@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSortDescendingNumbers extends Icon {
+class IconSortDescendingNumbers extends Tabler\Icon {
     public static function getName(): string {
         return 'sort-descending-numbers';
     }

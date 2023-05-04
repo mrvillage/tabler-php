@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMailMinus extends Icon {
+class IconMailMinus extends Tabler\Icon {
     public static function getName(): string {
         return 'mail-minus';
     }

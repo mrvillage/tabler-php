@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandPlanetscale extends Icon {
+class IconBrandPlanetscale extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-planetscale';
     }

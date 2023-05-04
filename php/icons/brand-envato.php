@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandEnvato extends Icon {
+class IconBrandEnvato extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-envato';
     }

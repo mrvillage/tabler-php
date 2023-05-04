@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandStrava extends Icon {
+class IconBrandStrava extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-strava';
     }

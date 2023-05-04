@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconArrowsSort extends Icon {
+class IconArrowsSort extends Tabler\Icon {
     public static function getName(): string {
         return 'arrows-sort';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandWix extends Icon {
+class IconBrandWix extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-wix';
     }

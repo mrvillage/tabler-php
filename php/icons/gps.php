@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconGps extends Icon {
+class IconGps extends Tabler\Icon {
     public static function getName(): string {
         return 'gps';
     }

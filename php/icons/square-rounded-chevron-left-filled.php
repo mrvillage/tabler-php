@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSquareRoundedChevronLeftFilled extends Icon {
+class IconSquareRoundedChevronLeftFilled extends Tabler\Icon {
     public static function getName(): string {
         return 'square-rounded-chevron-left-filled';
     }

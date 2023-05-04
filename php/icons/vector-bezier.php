@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconVectorBezier extends Icon {
+class IconVectorBezier extends Tabler\Icon {
     public static function getName(): string {
         return 'vector-bezier';
     }

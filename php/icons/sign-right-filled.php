@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSignRightFilled extends Icon {
+class IconSignRightFilled extends Tabler\Icon {
     public static function getName(): string {
         return 'sign-right-filled';
     }

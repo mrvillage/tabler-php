@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconAlphabetCyrillic extends Icon {
+class IconAlphabetCyrillic extends Tabler\Icon {
     public static function getName(): string {
         return 'alphabet-cyrillic';
     }

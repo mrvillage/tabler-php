@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandDjango extends Icon {
+class IconBrandDjango extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-django';
     }

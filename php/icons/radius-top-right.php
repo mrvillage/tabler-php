@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconRadiusTopRight extends Icon {
+class IconRadiusTopRight extends Tabler\Icon {
     public static function getName(): string {
         return 'radius-top-right';
     }

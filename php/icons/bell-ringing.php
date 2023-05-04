@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBellRinging extends Icon {
+class IconBellRinging extends Tabler\Icon {
     public static function getName(): string {
         return 'bell-ringing';
     }

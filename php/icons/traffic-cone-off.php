@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconTrafficConeOff extends Icon {
+class IconTrafficConeOff extends Tabler\Icon {
     public static function getName(): string {
         return 'traffic-cone-off';
     }

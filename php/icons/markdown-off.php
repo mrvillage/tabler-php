@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMarkdownOff extends Icon {
+class IconMarkdownOff extends Tabler\Icon {
     public static function getName(): string {
         return 'markdown-off';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconEggCracked extends Icon {
+class IconEggCracked extends Tabler\Icon {
     public static function getName(): string {
         return 'egg-cracked';
     }

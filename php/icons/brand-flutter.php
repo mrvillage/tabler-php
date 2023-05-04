@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandFlutter extends Icon {
+class IconBrandFlutter extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-flutter';
     }

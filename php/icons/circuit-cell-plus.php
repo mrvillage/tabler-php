@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCircuitCellPlus extends Icon {
+class IconCircuitCellPlus extends Tabler\Icon {
     public static function getName(): string {
         return 'circuit-cell-plus';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconShieldCancel extends Icon {
+class IconShieldCancel extends Tabler\Icon {
     public static function getName(): string {
         return 'shield-cancel';
     }

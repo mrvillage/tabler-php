@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconVectorSpline extends Icon {
+class IconVectorSpline extends Tabler\Icon {
     public static function getName(): string {
         return 'vector-spline';
     }

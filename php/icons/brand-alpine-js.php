@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandAlpineJs extends Icon {
+class IconBrandAlpineJs extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-alpine-js';
     }

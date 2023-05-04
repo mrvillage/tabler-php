@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLiveView extends Icon {
+class IconLiveView extends Tabler\Icon {
     public static function getName(): string {
         return 'live-view';
     }

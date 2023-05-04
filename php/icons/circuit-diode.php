@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCircuitDiode extends Icon {
+class IconCircuitDiode extends Tabler\Icon {
     public static function getName(): string {
         return 'circuit-diode';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconPlayerSkipBack extends Icon {
+class IconPlayerSkipBack extends Tabler\Icon {
     public static function getName(): string {
         return 'player-skip-back';
     }

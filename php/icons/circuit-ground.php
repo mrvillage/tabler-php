@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCircuitGround extends Icon {
+class IconCircuitGround extends Tabler\Icon {
     public static function getName(): string {
         return 'circuit-ground';
     }

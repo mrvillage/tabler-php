@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMathMax extends Icon {
+class IconMathMax extends Tabler\Icon {
     public static function getName(): string {
         return 'math-max';
     }

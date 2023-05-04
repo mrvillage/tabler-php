@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconArrowMergeBoth extends Icon {
+class IconArrowMergeBoth extends Tabler\Icon {
     public static function getName(): string {
         return 'arrow-merge-both';
     }

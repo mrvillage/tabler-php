@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconRefreshDot extends Icon {
+class IconRefreshDot extends Tabler\Icon {
     public static function getName(): string {
         return 'refresh-dot';
     }

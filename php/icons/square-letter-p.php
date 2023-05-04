@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSquareLetterP extends Icon {
+class IconSquareLetterP extends Tabler\Icon {
     public static function getName(): string {
         return 'square-letter-p';
     }

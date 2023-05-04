@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCurrentLocation extends Icon {
+class IconCurrentLocation extends Tabler\Icon {
     public static function getName(): string {
         return 'current-location';
     }

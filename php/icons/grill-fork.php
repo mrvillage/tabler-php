@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconGrillFork extends Icon {
+class IconGrillFork extends Tabler\Icon {
     public static function getName(): string {
         return 'grill-fork';
     }

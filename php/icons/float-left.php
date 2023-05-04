@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFloatLeft extends Icon {
+class IconFloatLeft extends Tabler\Icon {
     public static function getName(): string {
         return 'float-left';
     }

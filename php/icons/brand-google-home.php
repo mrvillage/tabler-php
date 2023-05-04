@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandGoogleHome extends Icon {
+class IconBrandGoogleHome extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-google-home';
     }

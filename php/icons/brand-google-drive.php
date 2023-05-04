@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandGoogleDrive extends Icon {
+class IconBrandGoogleDrive extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-google-drive';
     }

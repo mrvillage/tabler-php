@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconHttpTrace extends Icon {
+class IconHttpTrace extends Tabler\Icon {
     public static function getName(): string {
         return 'http-trace';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLogicXor extends Icon {
+class IconLogicXor extends Tabler\Icon {
     public static function getName(): string {
         return 'logic-xor';
     }

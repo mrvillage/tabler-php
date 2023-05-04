@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCoinBitcoin extends Icon {
+class IconCoinBitcoin extends Tabler\Icon {
     public static function getName(): string {
         return 'coin-bitcoin';
     }

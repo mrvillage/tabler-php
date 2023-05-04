@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLetterSpacing extends Icon {
+class IconLetterSpacing extends Tabler\Icon {
     public static function getName(): string {
         return 'letter-spacing';
     }

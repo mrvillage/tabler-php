@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconPanoramaHorizontalOff extends Icon {
+class IconPanoramaHorizontalOff extends Tabler\Icon {
     public static function getName(): string {
         return 'panorama-horizontal-off';
     }

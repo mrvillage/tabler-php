@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconGitCommit extends Icon {
+class IconGitCommit extends Tabler\Icon {
     public static function getName(): string {
         return 'git-commit';
     }

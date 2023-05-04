@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandLinqpad extends Icon {
+class IconBrandLinqpad extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-linqpad';
     }

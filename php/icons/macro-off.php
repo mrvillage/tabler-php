@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMacroOff extends Icon {
+class IconMacroOff extends Tabler\Icon {
     public static function getName(): string {
         return 'macro-off';
     }

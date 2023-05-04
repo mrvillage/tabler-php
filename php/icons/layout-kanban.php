@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLayoutKanban extends Icon {
+class IconLayoutKanban extends Tabler\Icon {
     public static function getName(): string {
         return 'layout-kanban';
     }

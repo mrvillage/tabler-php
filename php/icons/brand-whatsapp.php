@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandWhatsapp extends Icon {
+class IconBrandWhatsapp extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-whatsapp';
     }

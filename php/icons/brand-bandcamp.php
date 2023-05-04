@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandBandcamp extends Icon {
+class IconBrandBandcamp extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-bandcamp';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconEaseInControlPoint extends Icon {
+class IconEaseInControlPoint extends Tabler\Icon {
     public static function getName(): string {
         return 'ease-in-control-point';
     }

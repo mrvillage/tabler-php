@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconParkingOff extends Icon {
+class IconParkingOff extends Tabler\Icon {
     public static function getName(): string {
         return 'parking-off';
     }

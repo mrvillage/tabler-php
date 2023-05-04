@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class Icon3dCubeSphere extends Icon {
+class Icon3dCubeSphere extends Tabler\Icon {
     public static function getName(): string {
         return '3d-cube-sphere';
     }

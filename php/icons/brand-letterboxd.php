@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandLetterboxd extends Icon {
+class IconBrandLetterboxd extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-letterboxd';
     }

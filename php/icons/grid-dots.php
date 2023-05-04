@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconGridDots extends Icon {
+class IconGridDots extends Tabler\Icon {
     public static function getName(): string {
         return 'grid-dots';
     }

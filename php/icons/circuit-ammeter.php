@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCircuitAmmeter extends Icon {
+class IconCircuitAmmeter extends Tabler\Icon {
     public static function getName(): string {
         return 'circuit-ammeter';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandDiscord extends Icon {
+class IconBrandDiscord extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-discord';
     }

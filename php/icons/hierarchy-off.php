@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconHierarchyOff extends Icon {
+class IconHierarchyOff extends Tabler\Icon {
     public static function getName(): string {
         return 'hierarchy-off';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLayersUnion extends Icon {
+class IconLayersUnion extends Tabler\Icon {
     public static function getName(): string {
         return 'layers-union';
     }

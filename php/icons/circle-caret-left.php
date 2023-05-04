@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCircleCaretLeft extends Icon {
+class IconCircleCaretLeft extends Tabler\Icon {
     public static function getName(): string {
         return 'circle-caret-left';
     }

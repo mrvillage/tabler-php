@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMessageCircleCog extends Icon {
+class IconMessageCircleCog extends Tabler\Icon {
     public static function getName(): string {
         return 'message-circle-cog';
     }

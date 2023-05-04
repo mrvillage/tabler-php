@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconTiltShiftOff extends Icon {
+class IconTiltShiftOff extends Tabler\Icon {
     public static function getName(): string {
         return 'tilt-shift-off';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconRelationOneToOne extends Icon {
+class IconRelationOneToOne extends Tabler\Icon {
     public static function getName(): string {
         return 'relation-one-to-one';
     }

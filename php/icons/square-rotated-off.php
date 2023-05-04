@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSquareRotatedOff extends Icon {
+class IconSquareRotatedOff extends Tabler\Icon {
     public static function getName(): string {
         return 'square-rotated-off';
     }

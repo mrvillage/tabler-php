@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconPlugConnectedX extends Icon {
+class IconPlugConnectedX extends Tabler\Icon {
     public static function getName(): string {
         return 'plug-connected-x';
     }

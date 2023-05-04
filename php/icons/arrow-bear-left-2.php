@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconArrowBearLeft2 extends Icon {
+class IconArrowBearLeft2 extends Tabler\Icon {
     public static function getName(): string {
         return 'arrow-bear-left-2';
     }

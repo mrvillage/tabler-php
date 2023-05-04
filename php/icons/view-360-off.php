@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconView360Off extends Icon {
+class IconView360Off extends Tabler\Icon {
     public static function getName(): string {
         return 'view-360-off';
     }

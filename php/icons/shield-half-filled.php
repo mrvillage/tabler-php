@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconShieldHalfFilled extends Icon {
+class IconShieldHalfFilled extends Tabler\Icon {
     public static function getName(): string {
         return 'shield-half-filled';
     }

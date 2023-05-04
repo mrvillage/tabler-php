@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconGitCompare extends Icon {
+class IconGitCompare extends Tabler\Icon {
     public static function getName(): string {
         return 'git-compare';
     }

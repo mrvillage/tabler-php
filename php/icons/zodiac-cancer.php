@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconZodiacCancer extends Icon {
+class IconZodiacCancer extends Tabler\Icon {
     public static function getName(): string {
         return 'zodiac-cancer';
     }

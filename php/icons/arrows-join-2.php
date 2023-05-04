@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconArrowsJoin2 extends Icon {
+class IconArrowsJoin2 extends Tabler\Icon {
     public static function getName(): string {
         return 'arrows-join-2';
     }

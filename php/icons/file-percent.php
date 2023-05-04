@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFilePercent extends Icon {
+class IconFilePercent extends Tabler\Icon {
     public static function getName(): string {
         return 'file-percent';
     }

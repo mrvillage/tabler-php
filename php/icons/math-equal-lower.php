@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMathEqualLower extends Icon {
+class IconMathEqualLower extends Tabler\Icon {
     public static function getName(): string {
         return 'math-equal-lower';
     }

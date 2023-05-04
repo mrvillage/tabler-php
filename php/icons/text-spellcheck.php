@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconTextSpellcheck extends Icon {
+class IconTextSpellcheck extends Tabler\Icon {
     public static function getName(): string {
         return 'text-spellcheck';
     }

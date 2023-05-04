@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLayersIntersect2 extends Icon {
+class IconLayersIntersect2 extends Tabler\Icon {
     public static function getName(): string {
         return 'layers-intersect-2';
     }

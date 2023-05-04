@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSquareRoundedCheckFilled extends Icon {
+class IconSquareRoundedCheckFilled extends Tabler\Icon {
     public static function getName(): string {
         return 'square-rounded-check-filled';
     }

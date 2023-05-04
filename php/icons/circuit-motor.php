@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCircuitMotor extends Icon {
+class IconCircuitMotor extends Tabler\Icon {
     public static function getName(): string {
         return 'circuit-motor';
     }

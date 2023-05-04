@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandGithubFilled extends Icon {
+class IconBrandGithubFilled extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-github-filled';
     }

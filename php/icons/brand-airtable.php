@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandAirtable extends Icon {
+class IconBrandAirtable extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-airtable';
     }

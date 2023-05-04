@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandSolidjs extends Icon {
+class IconBrandSolidjs extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-solidjs';
     }

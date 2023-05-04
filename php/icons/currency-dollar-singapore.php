@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCurrencyDollarSingapore extends Icon {
+class IconCurrencyDollarSingapore extends Tabler\Icon {
     public static function getName(): string {
         return 'currency-dollar-singapore';
     }

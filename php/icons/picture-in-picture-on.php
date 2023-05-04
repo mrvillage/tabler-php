@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconPictureInPictureOn extends Icon {
+class IconPictureInPictureOn extends Tabler\Icon {
     public static function getName(): string {
         return 'picture-in-picture-on';
     }

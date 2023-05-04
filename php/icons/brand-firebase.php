@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandFirebase extends Icon {
+class IconBrandFirebase extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-firebase';
     }

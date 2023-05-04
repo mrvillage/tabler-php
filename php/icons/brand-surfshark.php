@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandSurfshark extends Icon {
+class IconBrandSurfshark extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-surfshark';
     }

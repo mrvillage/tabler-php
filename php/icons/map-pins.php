@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMapPins extends Icon {
+class IconMapPins extends Tabler\Icon {
     public static function getName(): string {
         return 'map-pins';
     }

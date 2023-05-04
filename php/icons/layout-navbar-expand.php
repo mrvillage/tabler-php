@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLayoutNavbarExpand extends Icon {
+class IconLayoutNavbarExpand extends Tabler\Icon {
     public static function getName(): string {
         return 'layout-navbar-expand';
     }

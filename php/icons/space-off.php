@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSpaceOff extends Icon {
+class IconSpaceOff extends Tabler\Icon {
     public static function getName(): string {
         return 'space-off';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconEyeglassOff extends Icon {
+class IconEyeglassOff extends Tabler\Icon {
     public static function getName(): string {
         return 'eyeglass-off';
     }

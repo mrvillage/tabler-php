@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconArrowAutofitContentFilled extends Icon {
+class IconArrowAutofitContentFilled extends Tabler\Icon {
     public static function getName(): string {
         return 'arrow-autofit-content-filled';
     }

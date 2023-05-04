@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandDebian extends Icon {
+class IconBrandDebian extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-debian';
     }

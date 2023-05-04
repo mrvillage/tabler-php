@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCurlyLoop extends Icon {
+class IconCurlyLoop extends Tabler\Icon {
     public static function getName(): string {
         return 'curly-loop';
     }

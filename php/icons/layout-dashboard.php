@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLayoutDashboard extends Icon {
+class IconLayoutDashboard extends Tabler\Icon {
     public static function getName(): string {
         return 'layout-dashboard';
     }

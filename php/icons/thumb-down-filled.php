@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconThumbDownFilled extends Icon {
+class IconThumbDownFilled extends Tabler\Icon {
     public static function getName(): string {
         return 'thumb-down-filled';
     }

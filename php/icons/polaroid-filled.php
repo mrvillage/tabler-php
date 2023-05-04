@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconPolaroidFilled extends Icon {
+class IconPolaroidFilled extends Tabler\Icon {
     public static function getName(): string {
         return 'polaroid-filled';
     }

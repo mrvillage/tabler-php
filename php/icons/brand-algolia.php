@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandAlgolia extends Icon {
+class IconBrandAlgolia extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-algolia';
     }

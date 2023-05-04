@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDialpadFilled extends Icon {
+class IconDialpadFilled extends Tabler\Icon {
     public static function getName(): string {
         return 'dialpad-filled';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCopyleftOff extends Icon {
+class IconCopyleftOff extends Tabler\Icon {
     public static function getName(): string {
         return 'copyleft-off';
     }

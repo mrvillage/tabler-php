@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCarouselHorizontal extends Icon {
+class IconCarouselHorizontal extends Tabler\Icon {
     public static function getName(): string {
         return 'carousel-horizontal';
     }

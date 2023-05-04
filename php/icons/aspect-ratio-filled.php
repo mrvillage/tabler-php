@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconAspectRatioFilled extends Icon {
+class IconAspectRatioFilled extends Tabler\Icon {
     public static function getName(): string {
         return 'aspect-ratio-filled';
     }

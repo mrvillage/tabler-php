@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLayoutSidebarRightCollapse extends Icon {
+class IconLayoutSidebarRightCollapse extends Tabler\Icon {
     public static function getName(): string {
         return 'layout-sidebar-right-collapse';
     }

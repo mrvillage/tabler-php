@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconRadioOff extends Icon {
+class IconRadioOff extends Tabler\Icon {
     public static function getName(): string {
         return 'radio-off';
     }

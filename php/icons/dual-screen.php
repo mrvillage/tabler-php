@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDualScreen extends Icon {
+class IconDualScreen extends Tabler\Icon {
     public static function getName(): string {
         return 'dual-screen';
     }

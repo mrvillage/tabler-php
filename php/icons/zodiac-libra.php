@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconZodiacLibra extends Icon {
+class IconZodiacLibra extends Tabler\Icon {
     public static function getName(): string {
         return 'zodiac-libra';
     }

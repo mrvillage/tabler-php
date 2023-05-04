@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconTransitionTop extends Icon {
+class IconTransitionTop extends Tabler\Icon {
     public static function getName(): string {
         return 'transition-top';
     }

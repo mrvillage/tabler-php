@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconClockExclamation extends Icon {
+class IconClockExclamation extends Tabler\Icon {
     public static function getName(): string {
         return 'clock-exclamation';
     }

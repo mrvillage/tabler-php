@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFileShredder extends Icon {
+class IconFileShredder extends Tabler\Icon {
     public static function getName(): string {
         return 'file-shredder';
     }

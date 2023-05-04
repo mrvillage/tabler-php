@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconGenderGenderqueer extends Icon {
+class IconGenderGenderqueer extends Tabler\Icon {
     public static function getName(): string {
         return 'gender-genderqueer';
     }

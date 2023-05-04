@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconNavigationFilled extends Icon {
+class IconNavigationFilled extends Tabler\Icon {
     public static function getName(): string {
         return 'navigation-filled';
     }

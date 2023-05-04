@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFolderCog extends Icon {
+class IconFolderCog extends Tabler\Icon {
     public static function getName(): string {
         return 'folder-cog';
     }

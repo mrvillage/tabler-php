@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconArrowBigDownLine extends Icon {
+class IconArrowBigDownLine extends Tabler\Icon {
     public static function getName(): string {
         return 'arrow-big-down-line';
     }

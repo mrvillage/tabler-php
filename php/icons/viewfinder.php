@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconViewfinder extends Icon {
+class IconViewfinder extends Tabler\Icon {
     public static function getName(): string {
         return 'viewfinder';
     }

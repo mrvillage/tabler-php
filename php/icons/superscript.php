@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSuperscript extends Icon {
+class IconSuperscript extends Tabler\Icon {
     public static function getName(): string {
         return 'superscript';
     }

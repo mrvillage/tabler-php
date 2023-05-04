@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconGripVertical extends Icon {
+class IconGripVertical extends Tabler\Icon {
     public static function getName(): string {
         return 'grip-vertical';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrightnessHalf extends Icon {
+class IconBrightnessHalf extends Tabler\Icon {
     public static function getName(): string {
         return 'brightness-half';
     }

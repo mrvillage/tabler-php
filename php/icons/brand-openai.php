@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandOpenai extends Icon {
+class IconBrandOpenai extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-openai';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconTextDirectionLtr extends Icon {
+class IconTextDirectionLtr extends Tabler\Icon {
     public static function getName(): string {
         return 'text-direction-ltr';
     }

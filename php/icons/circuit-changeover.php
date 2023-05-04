@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCircuitChangeover extends Icon {
+class IconCircuitChangeover extends Tabler\Icon {
     public static function getName(): string {
         return 'circuit-changeover';
     }

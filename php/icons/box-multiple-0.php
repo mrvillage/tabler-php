@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBoxMultiple0 extends Icon {
+class IconBoxMultiple0 extends Tabler\Icon {
     public static function getName(): string {
         return 'box-multiple-0';
     }

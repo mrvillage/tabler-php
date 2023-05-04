@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconLockMinus extends Icon {
+class IconLockMinus extends Tabler\Icon {
     public static function getName(): string {
         return 'lock-minus';
     }

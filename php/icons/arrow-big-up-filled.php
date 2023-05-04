@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconArrowBigUpFilled extends Icon {
+class IconArrowBigUpFilled extends Tabler\Icon {
     public static function getName(): string {
         return 'arrow-big-up-filled';
     }

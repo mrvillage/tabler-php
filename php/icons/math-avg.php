@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMathAvg extends Icon {
+class IconMathAvg extends Tabler\Icon {
     public static function getName(): string {
         return 'math-avg';
     }

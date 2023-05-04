@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconPlayerSkipForwardFilled extends Icon {
+class IconPlayerSkipForwardFilled extends Tabler\Icon {
     public static function getName(): string {
         return 'player-skip-forward-filled';
     }

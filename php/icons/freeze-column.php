@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFreezeColumn extends Icon {
+class IconFreezeColumn extends Tabler\Icon {
     public static function getName(): string {
         return 'freeze-column';
     }

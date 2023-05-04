@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconInfoOctagonFilled extends Icon {
+class IconInfoOctagonFilled extends Tabler\Icon {
     public static function getName(): string {
         return 'info-octagon-filled';
     }

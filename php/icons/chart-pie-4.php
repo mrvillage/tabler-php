@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconChartPie4 extends Icon {
+class IconChartPie4 extends Tabler\Icon {
     public static function getName(): string {
         return 'chart-pie-4';
     }

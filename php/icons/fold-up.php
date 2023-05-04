@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFoldUp extends Icon {
+class IconFoldUp extends Tabler\Icon {
     public static function getName(): string {
         return 'fold-up';
     }

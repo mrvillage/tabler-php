@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBinaryTree extends Icon {
+class IconBinaryTree extends Tabler\Icon {
     public static function getName(): string {
         return 'binary-tree';
     }

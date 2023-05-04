@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconCalendarStats extends Icon {
+class IconCalendarStats extends Tabler\Icon {
     public static function getName(): string {
         return 'calendar-stats';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconPolygonOff extends Icon {
+class IconPolygonOff extends Tabler\Icon {
     public static function getName(): string {
         return 'polygon-off';
     }

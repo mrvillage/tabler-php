@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandAdonisJs extends Icon {
+class IconBrandAdonisJs extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-adonis-js';
     }

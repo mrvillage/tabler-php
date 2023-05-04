@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconUvIndex extends Icon {
+class IconUvIndex extends Tabler\Icon {
     public static function getName(): string {
         return 'uv-index';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBaselineDensityLarge extends Icon {
+class IconBaselineDensityLarge extends Tabler\Icon {
     public static function getName(): string {
         return 'baseline-density-large';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSquareNumber7 extends Icon {
+class IconSquareNumber7 extends Tabler\Icon {
     public static function getName(): string {
         return 'square-number-7';
     }

@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconSquareRoundedNumber6 extends Icon {
+class IconSquareRoundedNumber6 extends Tabler\Icon {
     public static function getName(): string {
         return 'square-rounded-number-6';
     }

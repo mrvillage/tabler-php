@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandPushbullet extends Icon {
+class IconBrandPushbullet extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-pushbullet';
     }

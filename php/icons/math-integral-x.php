@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconMathIntegralX extends Icon {
+class IconMathIntegralX extends Tabler\Icon {
     public static function getName(): string {
         return 'math-integral-x';
     }

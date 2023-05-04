@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandDolbyDigital extends Icon {
+class IconBrandDolbyDigital extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-dolby-digital';
     }

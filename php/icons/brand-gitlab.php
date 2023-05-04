@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconBrandGitlab extends Icon {
+class IconBrandGitlab extends Tabler\Icon {
     public static function getName(): string {
         return 'brand-gitlab';
     }

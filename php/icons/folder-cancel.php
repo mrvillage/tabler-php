@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconFolderCancel extends Icon {
+class IconFolderCancel extends Tabler\Icon {
     public static function getName(): string {
         return 'folder-cancel';
     }

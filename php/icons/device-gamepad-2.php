@@ -3,7 +3,7 @@ namespace Tabler\Icons;
 
 require_once(__DIR__ . '/../Icon.php');
 
-class IconDeviceGamepad2 extends Icon {
+class IconDeviceGamepad2 extends Tabler\Icon {
     public static function getName(): string {
         return 'device-gamepad-2';
     }
