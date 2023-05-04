@@ -1,0 +1,16 @@
+<?php
+namespace Tabler\Icons;
+
+require_once(__DIR__ . '/../Icon.php');
+
+class IconBandageFilled extends \Tabler\Icon {
+    public static function getName(): string {
+        return 'bandage-filled';
+    }
+
+    public static function getSvg(): string {
+        return <<<SVG
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>   <path d="M20.207 3.793a5.95 5.95 0 0 1 .179 8.228l-.179 .186l-8 8a5.95 5.95 0 0 1 -8.593 -8.228l.179 -.186l8 -8a5.95 5.95 0 0 1 8.414 0zm-8.207 9.207a1 1 0 0 0 -1 1l.007 .127a1 1 0 0 0 1.993 -.117l-.007 -.127a1 1 0 0 0 -.993 -.883zm2 -2a1 1 0 0 0 -1 1l.007 .127a1 1 0 0 0 1.993 -.117l-.007 -.127a1 1 0 0 0 -.993 -.883zm-4 0a1 1 0 0 0 -1 1l.007 .127a1 1 0 0 0 1.993 -.117l-.007 -.127a1 1 0 0 0 -.993 -.883zm2 -2a1 1 0 0 0 -1 1l.007 .127a1 1 0 0 0 1.993 -.117l-.007 -.127a1 1 0 0 0 -.993 -.883z" stroke-width="0" fill="currentColor" />
+        SVG;
+    }
+}

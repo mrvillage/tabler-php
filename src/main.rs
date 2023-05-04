@@ -4,7 +4,7 @@ const ICONS: include_dir::Dir = include_dir!("$CARGO_MANIFEST_DIR/svg");
 const ICONS_PHP: &str = include_str!("Icon.php");
 
 fn main() {
-    let out_dir = std::env::current_dir().unwrap().join("php/icons");
+    let out_dir = std::env::current_dir().unwrap().join("php/Icons");
     std::fs::write(
         std::env::current_dir().unwrap().join("php/Icon.php"),
         ICONS_PHP,
@@ -50,7 +50,7 @@ fn main() {
             .trim()
             .replace('\n', " ");
         std::fs::write(
-            out_dir.join(format!("{}.php", name)),
+            out_dir.join(format!("Icon{}.php", class_name)),
             format!(
                 r#"<?php
 namespace Tabler\Icons;
