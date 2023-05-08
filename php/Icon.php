@@ -17,10 +17,6 @@ abstract class Icon
     /** @var string */
     public $strokeLinejoin = 'round';
 
-    public function __construct()
-    {
-    }
-
     abstract public static function getSvg(): string;
     abstract public static function getName(): string;
 
@@ -50,5 +46,41 @@ abstract class Icon
             $svg
         </svg>
         EOT;
+    }
+
+    public function size(float $size)
+    {
+        $this->size = $size;
+        return $this;
+    }
+
+    public function strokeWidth(float $strokeWidth)
+    {
+        $this->strokeWidth = $strokeWidth;
+        return $this;
+    }
+
+    public function stroke(string $stroke)
+    {
+        $this->stroke = $stroke;
+        return $this;
+    }
+
+    public function fill(string $fill)
+    {
+        $this->fill = $fill;
+        return $this;
+    }
+
+    public function strokeLinecap(string $strokeLinecap)
+    {
+        $this->strokeLinecap = $strokeLinecap;
+        return $this;
+    }
+
+    public function strokeLinejoin(string $strokeLinejoin)
+    {
+        $this->strokeLinejoin = $strokeLinejoin;
+        return $this;
     }
 }
