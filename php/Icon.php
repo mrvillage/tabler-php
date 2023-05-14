@@ -16,6 +16,8 @@ abstract class Icon
     public $strokeLinecap = 'round';
     /** @var string */
     public $strokeLinejoin = 'round';
+    /** @var string */
+    public $alt = '';
 
     abstract public static function getSvg(): string;
     abstract public static function getName(): string;
@@ -30,6 +32,8 @@ abstract class Icon
         $fill = $this->fill;
         $strokeLinecap = $this->strokeLinecap;
         $strokeLinejoin = $this->strokeLinejoin;
+        $alt = $this->alt;
+        $alt = "alt=\"$alt\"";
         return <<<EOT
             <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -81,6 +85,12 @@ abstract class Icon
     public function strokeLinejoin(string $strokeLinejoin)
     {
         $this->strokeLinejoin = $strokeLinejoin;
+        return $this;
+    }
+
+    public function alt(string $alt)
+    {
+        $this->alt = $alt;
         return $this;
     }
 }
