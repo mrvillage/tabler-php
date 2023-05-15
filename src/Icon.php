@@ -22,6 +22,11 @@ abstract class Icon
     abstract public static function getSvg(): string;
     abstract public static function getName(): string;
 
+    public function new()
+    {
+        return new self();
+    }
+
     public function __toString(): string
     {
         $name = static::getName();
